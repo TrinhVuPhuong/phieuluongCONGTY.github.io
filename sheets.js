@@ -76,7 +76,7 @@ function maker() {
 
     var p = document.createElement('p');
     p.setAttribute("class", "diachi");
-    p.textContent = obj['thang'];
+    p.textContent = titleCase(decodeURIComponent(obj['thang']));
 
     output.append(p);
     
