@@ -80,7 +80,6 @@ function maker() {
     p.textContent = titleCase(decodeURIComponent(obj['thang']));
     output.append(p);
 
-    output.append(p);
     
     div = document.createElement('div');
     div.setAttribute("class", "line");
@@ -133,7 +132,7 @@ function maker() {
         table.append(tr);
 
 
-        table = document.createElement('table');
+        
 
          tr = document.createElement('tr');
 
@@ -150,7 +149,7 @@ function maker() {
         table.append(tr);
 
 
-        table = document.createElement('table');
+       
 
         tr = document.createElement('tr');
 
