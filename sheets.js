@@ -304,7 +304,7 @@ function maker() {
 
     const myArray3 = obj['ngay'].split("%20");
 
-    console.log(myArray);
+    console.log(myArray3);
     
     var date = "";
     date += myArray3[0] + " " + myArray3[1];
