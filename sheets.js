@@ -332,8 +332,8 @@ maker();
 
 
 window.print();
-if(obj['thietbi']=='computer'){
-    window.addEventListener('afterprint', function() {
-    window.close();
-});
-}
+// if(obj['thietbi']=='computer'){
+//     window.addEventListener('afterprint', function() {
+//     window.close();
+// });
+// }
